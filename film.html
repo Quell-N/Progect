@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Связь</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="manifest" href="/manifest.json">
+</head>
+
+<body>
+    <div class="container">
+        <aside>
+            <header></header>
+            <footer></footer>
+        </aside>
+
+        <main>
+            <h1>Связь с нами</h1>
+            <div class="contact-info">
+                <p> Телефон: <a href="tel:+79914071121">+7 991 407-11-21</a></p>
+                <p>Email: <a href="mailto:kira.com.ru1@gmail.com">kira.com.ru1@gmail.com</a></p>
+                <p> Я Карина М.</p>
+            </div>
+
+            <form id="feedback-form" class="feedback-form">
+                <h2>Напишите нам</h2>
+                <div class="form-group">
+                    <label for="name">Ваше имя *</label>
+                    <input type="text" id="name" name="name" required>
+                    <div class="error-message" id="name-error"></div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                    <div class="error-message" id="email-error"></div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Сообщение *</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <div class="error-message" id="message-error"></div>
+                </div>
+                <button type="submit" class="submit-btn">Отправить</button>
+            </form>
+        </main>
+
+    </div>
+
+    <script src="/js/script.js" type="module"></script>
+</body>
+
+</html>

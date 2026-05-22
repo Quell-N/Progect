@@ -1,0 +1,22 @@
+:root {
+    --bg-primary:#fae1bb;
+    --bg-secondary:#fbd9a6;
+    --text-color: #fff;
+    --btn-bg-color: #6100C2;
+    --btn-text-color: #fff;
+    --card-text-color: #000;
+    --bg-gradient: linear-gradient(#fff, #ffffff00);
+    --border: 1px solid #969696;
+}
+
+
+.dark-theme {
+    --bg-primary: #1e1e2f;
+    --bg-secondary: #2a2a3b;
+    --text-color: #f0f0f0;
+    --btn-bg-color: #9b4dff;
+    --btn-text-color: #fff;
+    --card-text-color: #eee;
+    --bg-gradient: linear-gradient(#2a2a3b, #1e1e2f);
+    --border: 1px solid #555;
+}
